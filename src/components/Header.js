@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from './src/assets/logo3.webp'; 
 
 function Header() {
 
@@ -9,7 +9,7 @@ function Header() {
         <header className="App-header">
           <nav id="desktop-nav">
               <p className= "Logo_text_1"> A. </p>
-              <img src="logo3.webp" alt="Anna Vylka Ravna Logo" class="logo-image" />
+              <img src={logo} alt="Anna Vylka Ravna Logo" className="logo-image" />
               <p className= "Logo_text_2"> Ravna </p>
             <div className="navbar-elements">
                 <ul className="nav-links">
@@ -20,7 +20,7 @@ function Header() {
                     <li><a href="#this-website">This website</a></li>
                 </ul>
             </div>
-        </nav>
+          </nav>
         </header>
       </div>
     );
