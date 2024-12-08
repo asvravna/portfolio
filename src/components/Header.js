@@ -8,7 +8,7 @@ function Header() {
       <div className="App">
         <header className="App-header">
           <nav id="desktop-nav">
-              <p className= "Logo_text_1"> A. </p>
+              <p className= "Logo_text_1"> A. S.</p>
               <img src={logo} alt="Anna Vylka Ravna Logo" className="logo-image" />
               <p className= "Logo_text_2"> Ravna </p>
             <div className="navbar-elements">
