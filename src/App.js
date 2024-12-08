@@ -1,7 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
-import About from './components/About'; 
+import Profile from './components/Profile'; 
+import About from './components/About';
+import Experience from './components/Experience';
 import './App.css';
 // import Experience from './components/Experience';
 // import Projects from './components/Projects';
@@ -15,7 +17,10 @@ function App() {
   return (
     <>
      <Header />
+     <Profile />
      <About />
+     <Experience />
+
     </>
    
   );
