@@ -13,7 +13,6 @@
   margin-bottom: 1%;
   padding-top: 3%;
   margin-top: 2%;
-  height: auto;  
   padding-top: 5%;
   max-width: 600px;
   object-fit: scale-down;
@@ -49,17 +48,10 @@
   padding: 10px 10px;
   align-self: center;
 }
-
-.nav-links li {
-  margin: 0;
-  font-size: smaller;
-}
-
 .nav-links a {
   text-decoration: none;
   color: black;
   padding-right: 10%;
-
 }
 
 .nav-links li a{
@@ -82,11 +74,6 @@ nav {
   white-space: nowrap;
 }
 
-
-.nav-links ul{
-  margin-left: 0%;
-  padding-left: 0%;
-}
 .navbar-elements{
   margin-left: 10%;
   margin-top: 2%;
@@ -105,6 +92,139 @@ nav {
 #desktop-nav {
   margin-top: 10px;
   margin-left: 5%;
+}
+
+/* about */
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+.profile-title {
+  color: black;
+  font-size: 350%;
+  padding-bottom: 6%;
+
+}
+
+.section__pic-container {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  margin: auto 0;
+
+}
+.about-pic {
+  border-radius: 2rem;
+  height: 300;
+  width: 200;
+  
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+
+}
+
+.section__text p {
+  font-weight: 600;
+
+}
+
+.section__text__p1 {
+  padding-top: 200px;
+  text-align: center;
+  font-size: large;
+  padding-bottom: 2%;
+
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color:#8EB4E5;
+
+}
+
+.title {
+  font-size: 3rem;
+  text-align:center;
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap:1rem;
+  
+}
+.section {
+  background-color: lightblue;
+}
+
+
+/*ICONS*/
+.icon{
+  cursor:pointer;
+  height:2rem;
+}
+
+
+/* buttons */
+.btn btn-color-2{
+  margin-top: 10%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease ;
+  padding: 1rem;
+  width:8rem;
+  border-radius: 2rem;
+
+}
+
+.btn-color-1, .btn-color-2 {
+  border: rbg(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor:pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color:white; 
+}
+
+.btn-color-1:hover {
+  background: rgb(53, 53, 53);
+
+}
+
+.btn-color-2 {
+  background: none;
+
+}
+
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1 rem solid;
+  
+}
+
+.btn-container {
+  gap: 1rem;
 }
 
 
