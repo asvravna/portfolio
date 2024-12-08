@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from './src/assets/logo3.webp'; 
+import logo from '../assets/logo3.webp'; 
 
 function Header() {
 
