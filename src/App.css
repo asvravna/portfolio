@@ -580,6 +580,14 @@ article .icon {
     position: center;
 
 }
+.project-title-number{
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.experience-sub-title project-title h2{
+    font-style: italic;
+}
 
 .projects-text{
     margin-top:30%;
@@ -649,10 +657,7 @@ article .icon {
 .experience-details-container{
     padding-bottom: 10%;
 }
-.experience-sub-title{
-    padding-top: 5rem;
 
-}
 .this-website{
     padding-top: 63%;
     justify-content: center;

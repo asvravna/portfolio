@@ -20,13 +20,14 @@ const Projects = () => {
           <div className="about-containers">
             <div className="details-container color-container">
               <div className="article-container">
+              <h3 className="project-title-number">Project 3</h3>
                 <img
                   src={projectthree}
                   alt="project 2"
                   className="project-img"
                 />
               </div>
-              <h2 className="experience-sub-title project-title">Project Three</h2>
+              <h2 className="experience-sub-title project-title">20/20 Vision</h2>
               <p className="projects__description">
                 "20/20 Vision" is a tangible artifact developed with a participatory design-approach. With screen-time regulation functionality to reduce Computer Vision Syndrome and eye-strain caused by prolonged, monotonous computer use. As well as contributing to an overall enhanced working-environment for computer users, via regular breaks, focus-sessions and positive reinforcement.
               </p>
@@ -47,13 +48,15 @@ const Projects = () => {
             </div>
             <div className="details-container color-container">
               <div className="article-container">
+              <h3 className="project-title-number">Project 2</h3>
+
                 <img
                   src={projecttwo}
                   alt="project 2"
                   className="project-img"
                 />
               </div>
-              <h2 className="experience-sub-title project-title">Project Two</h2>
+              <h2 className="experience-sub-title project-title">BeskyttBevis</h2>
               <p className="projects__description">
                 An application for encrypted storage of critical information for people in abusive relationships. Developed to help victims get better help from lawyers and institutions that need information and evidence in order to support them in cases of violence or abuse. Our finished project from Oslo Legal Hackathon 2024.
               </p>
@@ -74,13 +77,15 @@ const Projects = () => {
             </div>
             <div className="details-container color-container">
               <div className="article-container">
+              <h3 className="project-title-number">Project 1</h3>
+
                 <img
                   src={projectone}
                   alt="project 3"
                   className="project-img"
                 />
               </div>
-              <h2 className="experience-sub-title project-title">Project One</h2>
+              <h2 className="experience-sub-title project-title">Embark</h2>
               <p className="projects__description">
                 An application and a prototype for a voice-user-interface developed from working with dog owners in Oslo. The idea for the app is to assist dog owners in finding suitable places to walk their dog based on environmental factors such as road-salting, temperature, traffic, noise and parks/green areas.
               </p>
