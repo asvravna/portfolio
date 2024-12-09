@@ -123,7 +123,7 @@ const Projects = () => {
               Developed using React.
             </p>
             <button
-                className="btn btn-color-2 project-btn"
+                className="annasbtn"
                 onClick={() => openInNewTab('https://www.figma.com/board/txWby9CIWwnzXR9ch7sp9A/Prototyping-Embark?node-id=1-143&t=GMaepl7YYC5wLWvL-1')}
                 >
                 Prototyping process
