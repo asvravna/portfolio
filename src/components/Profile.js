@@ -21,7 +21,7 @@ function About(){
                     <div className="section__text">
                         <p className= "section__text__p1"> Hello I'm </p>
                         <h1 className="profile-title">Anna Sofie Vylka Ravna</h1>
-                        <p className="section__text__p2">Developer/UX-designer</p>
+                        <p className="section__text__p2">Developer & UX-designer</p>
                     <div className="btn-container">
                     <button className="btn btn-color-2"
                         onClick={() => openInNewTab('../CV_english2.pdf')}

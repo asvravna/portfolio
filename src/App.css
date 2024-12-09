@@ -293,6 +293,16 @@ section {
     border-radius: 2rem;
 
 }
+.btn btn-color-2 project-btn{
+    border: rbg(53, 53, 53) 0.1rem solid;
+
+
+}
+.btn btn-color-2 project btn:hover{
+    cursor:pointer;
+
+
+}
 
 .btn-color-1, .btn-color-2 {
     border: rbg(53, 53, 53) 0.1rem solid;

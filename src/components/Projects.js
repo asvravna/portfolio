@@ -4,11 +4,12 @@ import projectthree from '../assets/ferdig-prototype.png';
 import projecttwo from '../assets/project-2.jpg';
 import projectone from '../assets/project-1.png';
 
-const openInNewTab = (url) => {
-  window.open(url, '_blank');
-};
 
 const Projects = () => {
+  const openInNewTab = (url) => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <div className="projects-section">
       <section id="projects">
@@ -114,28 +115,26 @@ const Projects = () => {
         />
       </section>
       <div className="container">
-        <section id="this-website">
-          <div className="this-website">
-            <div className="details-container color-container2">
-              <h2 className="experience-sub-title project-title">This website</h2>
-              <p className="projects__description">
-                Developed using React.
-              </p>
-              <div className="btn-container">
-                <button
-                  className="btn btn-color-2 project-btn"
-                  onClick={() => openInNewTab('https://github.com/asvravna/WebsitePortfolio')}
+      <section id="this-website">
+        <div className="this-website">
+          <div className="details-container color-container2">
+            <h2 className="experience-sub-title project-title">This website</h2>
+            <p className="projects__description">
+              Developed using React.
+            </p>
+            <button
+                className="btn btn-color-2 project-btn"
+                onClick={() => openInNewTab('https://www.figma.com/board/txWby9CIWwnzXR9ch7sp9A/Prototyping-Embark?node-id=1-143&t=GMaepl7YYC5wLWvL-1')}
                 >
-                  Source code
-                </button>
-              </div>
-            </div>
+                Prototyping process
+            </button>
           </div>
-            <img src={arrow} alt="Arrow icon" className="icon arrow"
-            onClick={() => (window.location.href = './#contact')}
-            />
-        </section>
-      </div>
+        </div>
+      </section>
+    </div>
+      <img src={arrow} alt="Arrow icon" className="icon arrow"
+      onClick={() => (window.location.href = './#contact')}
+      />
     </div>
   );
 };
