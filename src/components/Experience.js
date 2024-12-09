@@ -66,7 +66,7 @@ function Experience() {
                                         <p>Basic</p>
                                     </div>
                                 </article>
-                                <article>
+                                {/* <article>
                                     <img src={checkmark}
                                     alt="Experience icon"
                                     class="icon"
@@ -75,7 +75,7 @@ function Experience() {
                                         <h3>SecDevOps</h3>
                                         <p>Basic</p>
                                     </div>
-                                </article>
+                                </article> */}
                                 </div>  
                             </div>
                             <div class="details-container">

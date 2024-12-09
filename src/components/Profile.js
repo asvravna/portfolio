@@ -8,7 +8,6 @@ function About(){
   const openInNewTab = (url) => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
-
     return (
         <>
         <div className="profile-section"> 
@@ -25,7 +24,7 @@ function About(){
                         <p className="section__text__p2">Developer/UX-designer</p>
                     <div className="btn-container">
                     <button className="btn btn-color-2"
-                        onClick={() => openInNewTab('/assets/CV_english2.pdf')}
+                        onClick={() => openInNewTab('../CV_english2.pdf')}
                     >
                     Download CV
                     </button>
