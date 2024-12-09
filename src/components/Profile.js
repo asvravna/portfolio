@@ -5,6 +5,10 @@ import github from '../assets/github.png'
 
 
 function About(){
+  const openInNewTab = (url) => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
     return (
         <>
         <div className="profile-section"> 
@@ -21,25 +25,25 @@ function About(){
                         <p className="section__text__p2">Developer/UX-designer</p>
                     <div className="btn-container">
                     <button className="btn btn-color-2"
-                        onclick= "window.open('./assets/CV_english2.pdf')"
+                        onClick={() => openInNewTab('/assets/CV_english2.pdf')}
                     >
                     Download CV
                     </button>
                     <button className="btn btn-color-2"
-                        onclick= "location.href='./#contact'"
+                        onClick={() => (window.location.href = './#contact')}
                     >
                     Contact info
                     </button>
                 </div>
                     <div id ="socials-container">
                         <img src={linkedin} alt="My LinkedIn profile"
-                        className="icon"onclick="window.openInNewTab('https://www.linkedin.com/in/anna-sofie-vylka-ravna-2849ba284/')"
+                        className="icon"  onClick={() => openInNewTab('https://www.linkedin.com/in/anna-sofie-vylka-ravna-2849ba284/')}
                         />
                         <img src={github} alt="My GitHub profile"
-                        className="icon"onclick="window.openInNewTab('https://github.com/asvravna')"
+                        className="icon" onClick={() => openInNewTab('https://github.com/asvravna')}
                         />
                     </div>
-                </div>¨
+                </div>
             </section>
         </div>
     </>
