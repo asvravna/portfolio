@@ -5,7 +5,6 @@ import Profile from './components/Profile';
 import About from './components/About';
 import Experience from './components/Experience';
 import './App.css';
-// import Experience from './components/Experience';
 // import Projects from './components/Projects';
 // import Contact from './components/Contact';
 // import ThisWebsite from './components/ThisWebsite';
@@ -15,14 +14,13 @@ import './App.css';
 function App() {
 
   return (
-    <>
-     <Header />
-     <Profile />
-     <About />
-     <Experience />
+    <div className="App">
+        <Header />
+        <Profile />
+        <About />
+           
+    </div>
 
-    </>
-   
   );
 }
 
