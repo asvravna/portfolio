@@ -91,7 +91,7 @@ nav {
     margin-top: 10%;
     margin-bottom: 10%;
 }
-/* Change the background color and text color of the links on hover */
+
 #desktop-nav .nav-links li:hover a {
     background-color: white;
     color:#8EB4E5;
@@ -206,7 +206,7 @@ section {
 }
 .profile-title {
     color: black;
-    font-size: xxx-large;
+    font-size: 250%;
     padding-bottom: 6%;
 
 }
@@ -339,6 +339,7 @@ section {
 
 .about-containers {
     gap: 2.5rem;
+    justify-content: center;
 }
 
 .about-details-container {
@@ -356,7 +357,6 @@ section {
 .about-containers, 
 .about-details-container {
     display: flex;
-    padding-left: 10%;
 }
 
 .about-pic {
@@ -575,23 +575,27 @@ article .icon {
 
 /*PROJECTS SECTION*/
 #projects {
-    position: relative; 
+    justify-content: center;
     padding-bottom: 10%;
-    padding-right: 30%;
     position: center;
 
 }
-.title_for_projects {
-    padding-left: 75%;
-    font-size: xxx-large;
-    padding-bottom: 3%;
-    color:#8EB4E5;
 
+.projects-text{
+    margin-top:30%;
+    justify-content: center;
 
 }
+.title_for_projects {
+    padding-left: 40%;
+    font-size: 250%;
+    padding-bottom: 3%;
+    color:#8EB4E5;
+}
 .section__text__pp1 {
-    padding-left: 80%;
+    padding-left: 40%;
     font-size: 65;
+
 
 }
 
@@ -650,10 +654,11 @@ article .icon {
 
 }
 .this-website{
-    padding-top: 30%;
+    padding-top: 63%;
     justify-content: center;
     padding-left: 25%;
     width: 50%;
+    margin-bottom: 60%;
 }
 
 
@@ -672,6 +677,9 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    padding-top: 40%;
+    margin-bottom: 20%;
+
 }
 
 .contact-info-upper-container {
@@ -711,7 +719,6 @@ footer {
     padding-top: 0%;
     height: 26vh;
     margin: 0 1rem;
-    padding-left: 3%;
 
 }
 
