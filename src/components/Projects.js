@@ -131,12 +131,9 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            className="icon arrow"
+            <img src={arrow} alt="Arrow icon" className="icon arrow"
             onClick={() => (window.location.href = './#contact')}
-          />
+            />
         </section>
       </div>
     </div>

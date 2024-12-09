@@ -5,6 +5,10 @@ import arrow from '../assets/arrow.png'
 
 
 function About(){
+    const handleIconClick = (url) => {
+        window.open(url, '_blank');
+      };
+
     return (
         <>
         <div className="about-section">
@@ -23,7 +27,8 @@ function About(){
                             <h3>Experience</h3>
                             <p>2+ years Software developement</p>
                         </div>
-                        <div className="details-container">
+                        <div className="details-container"
+                            onClick={() => handleIconClick('https://www.uio.no/studier/program/inf-design/')}>
                             <img 
                             src={educationicon} alt="Education icon"
                             className="icon"
@@ -40,7 +45,7 @@ function About(){
                 </div>
             </div>
             <img src={arrow} alt="Arrow icon" className="icon arrow"
-            onclick="location.href='./#experience'"
+            onClick={() => (window.location.href = './#experience')}
             />
         </section>
     </div>
