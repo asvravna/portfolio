@@ -1,6 +1,9 @@
 import React from 'react';
+import arrow from '../assets/arrow.png';
+import projectthree from '../assets/ferdig-prototype.png';
+import projecttwo from '../assets/project-2.jpg';
+import projectone from '../assets/project-1.png';
 
-// Event handler functions
 const openInNewTab = (url) => {
   window.open(url, '_blank');
 };
@@ -18,7 +21,7 @@ const Projects = () => {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="./assets/ferdig-prototype.png"
+                  src={projectthree}
                   alt="project 2"
                   className="project-img"
                 />
@@ -45,7 +48,7 @@ const Projects = () => {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="./assets/project-1.JPG"
+                  src={projecttwo}
                   alt="project 2"
                   className="project-img"
                 />
@@ -72,7 +75,7 @@ const Projects = () => {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="./assets/project-3.png"
+                  src={projectone}
                   alt="project 3"
                   className="project-img"
                 />
@@ -99,7 +102,7 @@ const Projects = () => {
           </div>
         </div>
         <img
-          src="./assets/arrow.png"
+          src={arrow}
           alt="Arrow icon"
           className="icon arrow"
           onClick={() => (window.location.href = './#this-website')}
@@ -111,7 +114,7 @@ const Projects = () => {
             <div className="details-container color-container2">
               <h2 className="experience-sub-title project-title">This website</h2>
               <p className="projects__description">
-                Developed using pure HTML, CSS and JavaScript.
+                Developed using React.
               </p>
               <div className="btn-container">
                 <button
