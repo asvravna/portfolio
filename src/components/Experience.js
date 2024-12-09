@@ -1,5 +1,7 @@
 import React from 'react';
-import { useState } from 'react';
+// import { useState } from 'react';
+import checkmark from '../assets/checkmark.png';
+import arrow from '../assets/arrow.png';
 
 function Experience() {
     const expandDetail = (element) => {
@@ -26,7 +28,7 @@ function Experience() {
                                 <div className="article-container">
                                     <article>
                                         <img
-                                            src="./assets/checkmark.png"
+                                            src={checkmark}
                                             alt="Experience icon"
                                             className="icon"
                                         />
@@ -88,7 +90,7 @@ function Experience() {
                         <h1 className="year-description end">2025</h1>
                     </div>
                     <img
-                        src="./assets/arrow.png"
+                        src={arrow}
                         alt="Arrow icon"
                         className="icon arrow"
                         onClick={() => (window.location.href = './#projects')}
