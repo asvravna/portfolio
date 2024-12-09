@@ -26,7 +26,62 @@ function Experience() {
                             <div className="details-container">
                                 <h2 className="experience-sub-title">Design</h2>
                                 <div className="article-container">
-                                    <article>
+                                <article>
+                                    <img src={checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                        />
+                                        <div>
+                                        <h3>Figma</h3>
+                                        <p>Experienced</p>
+                                        </div>
+                                </article>
+                                <article>
+                                    <img src={checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                        />
+                                        <div>
+                                        <h3>Usability testing</h3>
+                                        <p>Basic</p>
+                                        </div>
+                                </article>
+                                <article>
+                                    <img src={checkmark}
+                                    alt="Experience icon"
+                                    class="icon"
+                                    />
+                                    <div>
+                                        <h3>JavaScript, HTML, CSS</h3>
+                                        <p>Basic</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src={checkmark}
+                                    alt="Experience icon"
+                                    class="icon"
+                                    />
+                                    <div>
+                                        <h3>React</h3>
+                                        <p>Basic</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src={checkmark}
+                                    alt="Experience icon"
+                                    class="icon"
+                                    />
+                                    <div>
+                                        <h3>SecDevOps</h3>
+                                        <p>Basic</p>
+                                    </div>
+                                </article>
+                                </div>  
+                            </div>
+                            <div class="details-container">
+                            <h2 className="experience-sub-title">Development</h2>
+                            <div class="article-container">
+                            <article>
                                         <img
                                             src={checkmark}
                                             alt="Experience icon"
@@ -37,6 +92,56 @@ function Experience() {
                                             <p>Intermediate</p>
                                         </div>
                                     </article>
+                                    <article>
+                                        <img src={checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                        />
+                                        <div>
+                                            <h3>SQL-server</h3>
+                                            <p>Basic</p>
+                                        </div>
+                                    </article>
+                                    <article>
+                                        <img src={checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                        />
+                                        <div>
+                                            <h3>Visual Studio</h3>
+                                            <p>Intermediate</p>
+                                        </div>
+                                    </article>
+                                <article>
+                                    <img src={checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                        />
+                                        <div>
+                                        <h3>Java</h3>
+                                        <p>Experienced</p>
+                                        </div>
+                                </article>
+                                <article>
+                                    <img src={checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                        />
+                                        <div>
+                                        <h3>Python</h3>
+                                        <p>Basic</p>
+                                        </div>
+                                </article>
+                                <article>
+                                    <img src={checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                        />
+                                        <div>
+                                        <h3>.NET/C#</h3>
+                                        <p>Intermediate</p>
+                                        </div>
+                                </article>
                                 </div>
                            </div>
                         </div>
